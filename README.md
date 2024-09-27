@@ -6,7 +6,7 @@
 - 使用的固件源代码: [immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x)
 
 ### 屏蔽恶意IP断
-
+**黑名单**
 ```bash
 nft add element inet security blocklist_ip4_forever { \
   167.94.138.0/24, \
@@ -56,6 +56,8 @@ nft add element inet security blocklist_ip4_forever { 14.32.68.0/24 }
 nft add element inet security blocklist_ip4_forever { 14.103.40.0/24 }
 nft add element inet security blocklist_ip4_forever { 15.204.37.0/24 }
 
-**CDN加速加入白名单**
+```
+**白名单**
+```bash
 nft add element inet security whitelist_ip { 112.26.33.106 }
 ```
