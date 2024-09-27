@@ -5,7 +5,7 @@
 - 默认的局域网IP断为192.168.23.1/24
 - 使用的固件源代码: [immortalwrt-mt798x](https://github.com/hanwckf/immortalwrt-mt798x)
 
-### 二、屏蔽恶意IP断
+### 二、屏蔽恶意IP段
 **黑名单**
 ```bash
 nft add element inet security blocklist_ip4_forever { \
