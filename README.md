@@ -46,12 +46,7 @@ nft add element inet security blocklist_ip4_forever { 4.151.219.0/24 }
 nft add element inet security blocklist_ip4_forever { 4.156.237.0/24 }
 nft add element inet security blocklist_ip4_forever { 5.8.11.0/24 }
 nft add element inet security blocklist_ip4_forever { 5.10.250.0/24 }
-nft add element inet security blocklist_ip4_forever { 8.137.59.0/24 }
-nft add element inet security blocklist_ip4_forever { 8.138.187.0/24 }
-nft add element inet security blocklist_ip4_forever { 8.216.87.0/24 }
-nft add element inet security blocklist_ip4_forever { 8.218.15.0/24 }
-nft add element inet security blocklist_ip4_forever { 8.218.150.0/24 }
-nft add element inet security blocklist_ip4_forever { 13.64.251.0/24 }
+
 nft add element inet security blocklist_ip4_forever { 14.32.68.0/24 }
 nft add element inet security blocklist_ip4_forever { 14.103.40.0/24 }
 nft add element inet security blocklist_ip4_forever { 15.204.37.0/24 }
