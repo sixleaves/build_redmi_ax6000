@@ -1,0 +1,4 @@
+.idea/
+/mycode/config.json
+*.so
+.DS_Store
