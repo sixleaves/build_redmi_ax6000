@@ -1,0 +1,1 @@
+5 17 * * * /usr/local/bin/singctl sb update >> /var/log/singctl_update.log 2>&1

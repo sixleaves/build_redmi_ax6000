@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [ "aweme.snssdk.com", "ib.snssdk.com", "is.snssdk.com", "v.douyin.com", "aweme-hl.snssdk.com", "p1.douyinpic.com", "p3.douyinpic.com", "p6.douyinpic.com", "p9.douyinpic.com", "sf1-hscdn-tos.pstatp.com", "sf3-hscdn-tos.pstatp.com", "sf6-hscdn-tos.pstatp.com", "v5-default.ixigua.com", "v9-default.ixigua.com"]
+      ,"domain_keyword": [ "douyin", "aweme", "douyinpic","douyincdn"]
+      ,"domain_regex": [ "^.*\\.douyinpic\\.com$","^.*\\.douyincdn\\.com$","^v.*\\.douyinvod\\.com$"]
+
+    }
+  ]
+}
